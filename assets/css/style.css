@@ -1,0 +1,34 @@
+html {
+  background-color: #ff8b94;
+  align-content: center;
+  display: block;
+  max-width: 600px;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: #a8e6cf;
+    color: #313131;
+    text-align: center;
+    padding: 2%;
+}
+#intructionsP {
+    background-color: #dcedc1;
+    text-align: justify;
+    padding: 2%;
+}
+#randomNumBox {
+    background-color: #ffd3b6;
+    font-size: 230%;
+}
+#scoreBox {
+    background-color: #ffaaa5;
+}
+h4 {
+    background-color: #a8e6cf;
+}
+#totalScoreBox {
+    background-color: #a8e6cf;
+    padding: 3%;
+    font-size: 230%;
+}
