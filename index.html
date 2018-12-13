@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="assets/javascript/game.js"defer></script>
@@ -24,7 +24,6 @@
             <br />
             You win the game by matching your total score to the random number that
             was generated at the beginning of the game.
-            <br />
             The value of each crytal is hidden from you until you click on it.
             Everytime the game starts, a new random number will be given to you.
             <b>Good luck!</b>
@@ -32,28 +31,32 @@
         <div class="container">
             <div class="row justify-content-around">
                 <div id="randomNumBox" class="col">
-                    werq<!-- this is the box where the random number that is gernerated will be displayed -->
+                    24#<!-- this is the box where the random number that is gernerated will be displayed -->
                 </div>
 
                 <div id="scoreBox" class="col">
                     <p>
-                        Wins: <span id="winID"> </span>
+                        <b>Wins:</b> <span id="winID"> </span>
                     </p>
                     <p>
-                        Losses: <span id="loseID"> </span>
+                        <b>Losses:</b> <span id="loseID"> </span>
                     </p>
                 </div>
             </div>
         </div>
         <image>
             <!-- this is where the crystals go -->
+            <img src="assets/images/Bluecrystal1.png" alt="A blue crystal that has a value of 2.">
+            <img src="assets/images/Orangecrystal1.png" alt="An orange crystal that has a value of 4.">
+            <img src="assets/images/Redcrystal1.png" alt="A red crystal that holds the value of 6.">
+            <img src="assets/images/Purplecrystal1.png" alt="A purple crystal that hold the value 8.">
         </image>
         <div>
             <h4>
                 Your total score is:
             </h4>
             <div id="totalScoreBox">
-                qwer<!-- this is the box where the number is shown every time the player clicks of a crystal. -->
+                10#<!-- this is the box where the number is shown every time the player clicks of a crystal. -->
             </div>
         </div>
     </main>

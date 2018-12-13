@@ -2,10 +2,12 @@ html {
   background-color: #ff8b94;
   align-content: center;
   display: block;
-  max-width: 600px;
-  font-family: 'Lato', sans-serif;
+  max-width: 500px;
+  font-family:'Lato', sans-serif;
 }
-
+body {
+    background-color: #f78891;
+}
 header {
     background-color: #a8e6cf;
     color: #313131;
@@ -15,6 +17,7 @@ header {
 #intructionsP {
     background-color: #dcedc1;
     text-align: justify;
+    font-size: 18px;
     padding: 2%;
 }
 #randomNumBox {
