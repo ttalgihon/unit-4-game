@@ -1,8 +1,8 @@
 html {
   background-color: #ff8b94;
-  align-content: center;
   display: block;
-  max-width: 500px;
+  max-width: 900px;
+  margin: auto;
   font-family:'Lato', sans-serif;
 }
 body {
@@ -12,26 +12,34 @@ header {
     background-color: #a8e6cf;
     color: #313131;
     text-align: center;
-    padding: 2%;
+    padding: 1%;
 }
 #intructionsP {
     background-color: #dcedc1;
     text-align: justify;
     font-size: 18px;
-    padding: 2%;
+    padding: 1%;
 }
-#randomNumBox {
+
+
+#pairBox { /* this umbrellas randomNumbox and scorebox*/
+    margin-bottom: 5%;
+    max-width: 500px;
+}
+#randomNumBox { /*game generated number box*/
     background-color: #ffd3b6;
-    font-size: 230%;
+    font-size: 240%;
 }
-#scoreBox {
+#scoreBox { /*win/lose score box*/
     background-color: #ffaaa5;
 }
-h4 {
+
+
+h4 { /*"Your total score is: displayed */
     background-color: #a8e6cf;
 }
-#totalScoreBox {
+#totalScoreBox { /*added score from the player.*/
     background-color: #a8e6cf;
-    padding: 3%;
+    padding: 1%;
     font-size: 230%;
 }
