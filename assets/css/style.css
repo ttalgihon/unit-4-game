@@ -24,17 +24,24 @@ header {
 
 #pairBox { /* this umbrellas randomNumbox and scorebox*/
     margin-bottom: 5%;
-    max-width: 500px;
+    max-width: 400px;
 }
 #randomNumBox { /*game generated number box*/
     background-color: #ffd3b6;
     font-size: 240%;
+    text-align: center;
 }
 #scoreBox { /*win/lose score box*/
     background-color: #ffaaa5;
 }
 
+.pictures {
+    display: inline;
+}
 
+#pairtotalscoreBox{
+    max-width: 400px;
+}
 h4 { /*"Your total score is: displayed */
     background-color: #a8e6cf;
 }
