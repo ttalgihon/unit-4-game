@@ -27,8 +27,8 @@ $(document).ready(function(){
             alert('You Lost...');
             lose++;
             $("#loseID").html(lose);
+
         }
-        log(totalScoreBox);
     });
 });
 
